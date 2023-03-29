@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* navbar */
+#haeder {}
+
+.navbar {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3e6f3;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+
+}
+
+#header a .cara-black-logo {
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 20px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+
+}
+
+ul li {
+    margin-right: 40px;
+    position: relative;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #1a1a1a;
+}
+
+ul li a:hover,
+ul li a.active {
+    color: #088178;
+}
+
+.navbar ul li a.active::after,
+.navbar ul li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+
+#contact-container{
+    text-align: center;
+    background-image: url(img/about/banner.png);
+    background-size: cover;
+    background-position: center;
+    padding:50px;
+    color: #fff;
+}
+
+#contact-container h1{
+    font-size: 35px;
+}
+#contact-container p{
+    font-size: 13px;
+}
+/* cart */
+#carts{
+    padding: 50px;
+}
+#carts table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+#carts table thead{
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-left: none;
+    border-right: none;
+}
+#carts table thead tr td{
+    font-weight:700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding:18px 0
+
+}
+#carts table tbody tr td{
+    padding-top: 15px;
+}
+#carts table tbody td img{
+    width: 50px;
+}
+#carts table tbody tr td:nth-child(1), #carts table tbody tr td:nth-child(2), #carts table tbody tr td:nth-child(3), #carts table tbody tr td:nth-child(4){
+    align-content: center;
+}
+
+#carts table tbody tr td:nth-child(5) input{
+    width: 30px;
+}
+
+#cart-add{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3, #subtotal h3{
+    padding-bottom:15px;
+}
+
+#coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid  #e3e6f3;
+}
+#coupon button{
+    background-color: #088178;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#subtotal{
+    width: 30%;
+    margin-bottom: 30px;
+    border: 1px solid #e3e6f3;
+    padding: 30px;
+}
+
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td{
+    width: 505;
+    border: 1pxsolid #e3e6f3;
+    padding: 10px;
+    font-size: 13px;
+}
+#subtotal .normal{
+    background-color: #088178;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#subtotal table td{
+    border: 1px solid rgba(0, 0, 0, 0.208);
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    display: flex;
+    justify-content: space-between;
+}
+ footer p{
+    color: #1a1a1aa0;
+ }
+ footer strong{
+    color: #000;
+ }
+ footer .col1 .icon{
+    margin-left: -10px;
+ }
+ footer .col1 .icon i{
+    margin-left:10px;
+ }
+
+ footer .col4 .app,.play {
+    border:2px solid #088178 ;
+    border-radius: 5px;
+ }
+

@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shopping.css">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <section id="porduct">
+        <div class="col-left">
+            <div class="porduct-large-image">
+                <img src="pic/shirt5/s1.webp" id="imagebox">
+            </div>
+            <div class="preview-image">
+                <img src="pic/shirt5/s1.webp" onclick="clickme(this)">
+                <img src="pic/shirt5/s2.webp" onclick="clickme(this)">
+                <img src="pic/shirt5/s3.webp" onclick="clickme(this)">
+                <img src="pic/shirt5/s4.webp" onclick="clickme(this)">
+                <img src="pic/shirt5/s5.jpg" onclick="clickme(this)">
+
+
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="url"><a href="">Home > </a> <a href="">Product ></a> <a href=""> T-shirt</a></div>
+            <div class="pname">T-shirt for Men</div>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+            </div>
+            <div class="price">$78</div>
+            <div class="size">
+                <p class="parasize">Size :</p>
+                <div class="psize">M</div>
+                <div class="psize">L</div>
+                <div class="psize">XL</div>
+                <div class="psize">XXL</div>
+            </div>
+            <div class="quantity">
+                <p>Quantity :</p>
+                <input type="number" min="1" max="5" value="1">
+            </div>
+            <div class="btn-box">
+                <button class="cart-btn">Add to cart</button>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        function clickme(smallimg) {
+            var fullimg = document.getElementById("imagebox")
+            fullimg.src = smallimg.src;
+        }
+    </script>
+</body>
+
+</html>

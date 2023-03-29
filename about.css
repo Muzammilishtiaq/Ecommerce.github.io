@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* navbar */
+#haeder {}
+
+.navbar {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3e6f3;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+
+}
+
+#header a .cara-black-logo {
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 20px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+
+}
+
+ul li {
+    margin-right: 40px;
+    position: relative;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #1a1a1a;
+}
+
+ul li a:hover,
+ul li a.active {
+    color: #088178;
+}
+
+.navbar ul li a.active::after,
+.navbar ul li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/* about-container */
+.about-container{
+    background-image: url(img/about/banner.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    color:#fff;
+}
+.about-container h1{
+font-size: 40px;
+font-weight: 600;
+font-family: sans-serif
+}
+.about-container p{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+/* who we are */
+.what-we-are{
+    display: flex;
+    padding: 50px;
+}
+
+.what-we-are .col-left{
+    padding: 20px;
+}
+.what-we-are .col-left img{
+    width: 80%;
+    /* margin-left: 100px; */
+}
+.what-we-are .col-right{
+   padding: 20px;
+}
+.what-we-are .col-right .content-we-are-ret{
+    margin-right:42.2%;
+}
+.app-video{
+    padding:5%;
+    text-align: center;
+}
+.app-video video{
+    width: 50%;
+}
+/* fecture */
+#feacture {
+    /* padding: 40px 100px; */
+ padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feacture .fe-box1 {
+    width: 180px;
+    text-align: center;
+    /* padding: 25px 15px; */
+    border: 1px solid #cce7de;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
+    margin-left: 5px;
+}
+
+#feacture .fe-box1 img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feacture .fe-box1 h6 {
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+    display: inline-block;
+}
+
+#feacture .fe-box1:nth-child(2) h6 {
+    background-color: #cce7d0;
+}
+
+#feacture .fe-box1:nth-child(3) h6 {
+    background-color: #d1e8f2;
+}
+
+#feacture .fe-box1:nth-child(4) h6 {
+    background-color: #cdd4f8;
+}
+
+#feacture .fe-box1:nth-child(5) h6 {
+    background-color: #f6dbf6;
+}
+
+#feacture .fe-box1:nth-child(6) h6 {
+    background-color: #fff2e5;
+}
+
+#feacture .fe-box1:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+
+/* new letter */
+#newletter{
+   padding-top: 50px;
+   padding-bottom: 50px;
+  
+
+}
+.main-new-letter{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    background-color: rgb(4, 29, 68);
+    background-image: url(img/banner/b14.png);
+    background-position:20% 30%;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  color: #fff;
+}
+
+.left-letter{
+   
+    padding-left: 150px;
+}
+.right-letter{
+    display: flex;
+    margin-right: 100px;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 5vh;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.right-letter input{
+    width:67.7%;
+    height: 5vh;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.right-letter button{
+    width: 30%;
+    height: 5vh;
+    border: none;
+    background-color: #088178;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    margin-left: 11px;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    display: flex;
+    justify-content: space-between;
+}
+ footer p{
+    color: #1a1a1aa0;
+ }
+ footer strong{
+    color: #000;
+ }
+ footer .col1 .icon{
+    margin-left: -10px;
+ }
+ footer .col1 .icon i{
+    margin-left:10px;
+ }
+
+ footer .col4 .app,.play {
+    border:2px solid #088178 ;
+    border-radius: 5px;
+ }

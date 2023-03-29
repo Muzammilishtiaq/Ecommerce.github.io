@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* navbar */
+#haeder {}
+
+.navbar {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3e6f3;
+    position:fixed;
+    
+
+}
+
+#header a .cara-black-logo {
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 20px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+
+}
+
+ul li {
+    margin-right: 40px;
+    position: relative;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #1a1a1a;
+}
+
+ul li a:hover,
+ul li a.active {
+    color: #088178;
+}
+
+.navbar ul li a.active::after,
+.navbar ul li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+/* newletter */
+/* new letter */
+#newletter{
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+ 
+ }
+ .main-new-letter{
+     display: flex;
+     justify-content: space-between;
+     /* width: 100%; */
+     background-color: rgb(4, 29, 68);
+     background-image: url(img/banner/b14.png);
+     background-position:20% 30%;
+     /* background-size: cover; */
+     background-repeat: no-repeat;
+     padding-top: 50px;
+     padding-bottom: 50px;
+   color: #fff;
+ }
+ 
+ .left-letter{
+    
+     padding-left: 150px;
+ }
+ .right-letter{
+     display: flex;
+     margin-right: 100px;
+     margin-top: 20px;
+     /* border: 2px solid red; */
+     width: 30%;
+     height: 5vh;
+     background-color: #fff;
+     border-radius: 10px;
+ }
+ .right-letter input{
+     width:67.7%;
+     height: 5vh;
+     background-color: transparent;
+     border: none;
+     outline: none;
+ }
+ 
+ .right-letter button{
+     width: 30%;
+     height: 5vh;
+     border: none;
+     background-color: #088178;
+     border-top-right-radius:10px ;
+     border-bottom-right-radius:10px ;
+     margin-left: 11px;
+     color: #fff;
+     font-weight: 600;
+ 
+ }
+ 
+ footer{
+     padding-top: 30px;
+     padding-bottom: 20px;
+     padding-left: 40px;
+     padding-right: 40px;
+ 
+     display: flex;
+     justify-content: space-between;
+ }
+  footer p{
+     color: #1a1a1aa0;
+  }
+  footer strong{
+     color: #000;
+  }
+  footer .col1 .icon{
+     margin-left: -10px;
+  }
+  footer .col1 .icon i{
+     margin-left:10px;
+  }
+ 
+  footer .col4 .app,.play {
+     border:2px solid #088178 ;
+     border-radius: 5px;
+  }
+
+
+/* end newletter */
+
+/* # read more */
+ /* blog html */
+ #readmore{
+    background-image: url(img/banner/b19.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+color: #fff;
+}
+#readmore h1{
+    font-size: 30px;
+}
+#readmore p{
+    font-size: 13px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+
+    
+}
+
+#container{
+    padding:50px;
+}
+
+.col-left img{
+width: 50vh;
+height: 50vh;
+margin-left: 50px;
+border-radius: 10px;
+}
+
+.col-right{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.col-right h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1ad7;
+    text-transform:uppercase;
+}
+.col-right article{
+    font-size: 12px;
+    text-transform: lowercase;
+}

@@ -1,0 +1,143 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#porduct{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.porduct-large-image{
+    /* border: 1px solid black; */
+    /* margin-left: 10%; */
+}
+.porduct-large-image img{
+    height: 90vh;
+}
+.preview-image{
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.preview-image img{
+    cursor: pointer;
+    width: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.442);
+    margin-left: 10px;
+   
+}
+
+.preview-image img:hover{
+border: 2px solid red;
+}
+
+.col-right{
+    padding-right: 20%;
+    padding-top: 15%;
+}
+.url{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(255, 119, 0);
+    font-family:sans-serif
+
+}
+.url a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: rgb(255, 98, 0);
+
+}
+.pname{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top:50px;
+    font-family:sans-serif
+
+}
+.rating{
+    color: rgb(255, 98, 0);
+    font-size: 17px;
+    margin-top: 10px;
+}
+.price{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 0;
+    font-family:sans-serif
+
+}
+ .size{
+    display: flex;
+    cursor: pointer;
+ }
+
+ .size .psize{
+    margin-left: 10px;
+    border: 2px solid rgb(255, 132, 0);
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 20px;
+  
+ }
+ .parasize{
+    margin-top: 0.5px;
+    font-weight: bold;
+    font-size:20px;
+    font-family:sans-serif
+ }
+
+ .quantity{
+    display: flex;
+ }
+.quantity p{
+    font-size: 20px;
+    font-weight: bold ;
+    font-family: sans-serif;
+}
+.quantity input{
+    border: 2px solid #1c1c1c53;
+    padding-left: 10px;
+    width: 30px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+.quantity input[type="number"]
+{
+    font-weight: 600;
+}
+
+.btn-box{
+    display: flex;
+
+}
+.btn-box .cart-btn{
+    background-color: rgb(255,105, 0);
+    width: 150px;
+    height: 5vh;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+
+   
+}
+
+.btn-box .buy-btn{
+    background-color: #3ccff4;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 100px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
